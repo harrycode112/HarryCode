@@ -24,7 +24,7 @@ class App extends React.Component {
             <div>
                 <Header />
                 <Content />
-                <First />
+                <First text={text}/>
             </div>
         )
     }
