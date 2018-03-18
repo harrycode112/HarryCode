@@ -1,4 +1,7 @@
 import React from 'react';
+import Header from './components/Header';
+import Content from './components/Content';
+import First from './components/First';
 
 /*
     컴포넌트는 항상 단일태그로 시작해야 한다. 
@@ -19,8 +22,9 @@ class App extends React.Component {
         
         return (
             <div>
-                <h1>First {text} App</h1>
-                <h2>{text} Project</h2>
+                <Header />
+                <Content />
+                <First />
             </div>
         )
     }
