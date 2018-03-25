@@ -1,0 +1,6 @@
+ul { margin: 0; padding: 0; margin-top: 30px;}
+
+li { width: 200px; list-style: none; text-align: center; padding: 7px; background-color: orangered; margin-bottom: 5px; }
+
+.exam-enter { transform: translateX(50px); } /* 들어가기 전 상태 */
+.exam-enter.exam-enter-active { transform: translateX(0px); transition: all 400ms ease; } /* 들어갈 때 동작 */
