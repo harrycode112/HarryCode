@@ -1,0 +1,9 @@
+* { margin: 0; padding: 0; }
+a { 
+    margin: 10px; width: 150px; height: 40px; background-color: orange; 
+    line-height: 40px; text-align: center; color: white; margin-right: 20px;
+}
+body { padding: 10px; }
+.count { width: 100px; height: 100px; color: white; background-color: yellowgreen; font-size: 40px; line-height: 100px; text-align: center;}
+
+button { padding: 10px 30px;}
